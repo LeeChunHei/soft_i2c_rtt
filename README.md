@@ -45,7 +45,6 @@ The detailed description of the package options is as follows:
 | GPIO port number for the SDA pin | The sda pin is (pin number) of pin in the (port number) of GPIO port |
 | GPIO pin number for the sda pin | The sda pin is (pin number) of pin in the (port number) of GPIO port |
 | Use rt_hw_us_delay function | Select this if the project had provided the implementation of rt_hw_us_delay, or else the max baudrate the soft i2c can reach is 500Hz if RT_TICK_PER_SECOND is 1000 |
-|||
 
 After selecting the options you need, use RT-Thread's package manager to automatically update, or use the `pkgs --update` command to update the package to the BSP.
 
