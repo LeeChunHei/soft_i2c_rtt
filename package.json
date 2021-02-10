@@ -1,0 +1,35 @@
+{
+  "name": "soft_i2c",
+  "description": "Soft I2C driver package",
+  "description_zh": "軟件 I2C 驅動软件包",  
+  "enable": "PKG_USING_SOFT_I2C", 
+  "keywords": [
+    "soft_i2c",
+    "i2c"
+  ],
+  "category": "peripherals",
+  "author": {
+    "name": "LeeChunHei",
+    "email": "lch19980829@gmail.com",
+    "github": "LeeChunHei"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/LeeChunHei/soft_i2c_rtt",
+  "icon": "unknown",
+  "homepage": "unknown",
+  "doc": "unknown",
+  "site": [
+    {
+      "version": "v1.0.0",
+      "URL": "https://github.com/LeeChunHei/soft_i2c_rtt/archive/1.0.0.zip",
+      "filename": "soft_i2c_rtt-1.0.0.zip",
+      "VER_SHA": "fill in the git version SHA value"
+    },
+    {
+      "version": "latest",
+      "URL": "https://github.com/LeeChunHei/soft_i2c_rtt.git",
+      "filename": "Null for git package",
+      "VER_SHA": "main"
+    }
+  ]
+}
